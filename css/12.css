@@ -1,0 +1,34 @@
+.photo {
+	width: 600px;
+	height: 380px;
+	background: url("http://htmlbook.ru/files/river.jpg") no-repeat;
+}
+
+input {
+	display:none;
+}
+
+.lab{
+	margin-left: 7px; 
+	float: left;
+	position: relative;
+	left: 238px;
+	top: 348px;
+	width: 10px;
+	height: 10px;
+	background: #000;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+}
+
+#radio1:checked ~ .label1,
+#radio2:checked ~ .label2,
+#radio3:checked ~ .label3,
+#radio4:checked ~ .label4,
+#radio5:checked ~ .label5  {
+	background: #C20813;
+	box-shadow: 0 0 2px 2px #fff;
+	cursor: auto;
+}
